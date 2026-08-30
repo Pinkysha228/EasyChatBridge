@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
 
     <name>EasyChatBridge</name>
-    <description>Velocity-плагин: принимает уведомление с одного бэкенд-сервера сети и раздаёт его всем остальным.</description>
+    <description></description>
 
     <properties>
         <java.version>17</java.version>
