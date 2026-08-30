@@ -1,0 +1,1 @@
+{"id":"easychatbridge","name":"EasyChatBridge","version":"1.0.0","description":"Forwards notifications from one backend server to all other servers in the network","authors":["Pinkysha"],"dependencies":[],"main":"me.pinkysha.EasyChatBridge.EasyChatBridge"}
