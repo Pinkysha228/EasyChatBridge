@@ -54,10 +54,10 @@ public final class EasyChatBridge {
     public void onProxyInitialize(ProxyInitializeEvent event) {
         reload();
         server.getCommandManager().register(
-                server.getCommandManager().metaBuilder("notifyrelay").plugin(this).build(),
+                server.getCommandManager().metaBuilder("easychatbridge").plugin(this).build(),
                 new ReloadCommand(this)
         );
-        logger.info("NotifyRelay enabled, channel: {}", config.channel());
+        logger.info("EasyChatBridge enabled, channel: {}", config.channel());
     }
 
     void reload() {
