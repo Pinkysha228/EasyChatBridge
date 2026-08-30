@@ -1,6 +1,6 @@
 # EasyChatBridge
 
-A Velocity plugin for the [EasyChat](https://github.com/pinkysha/EasyChat) network. It receives a notification (raw bytes; the payload format is not inspected) from one backend server on the network and relays it to every other connected backend server.
+A Velocity plugin for the [EasyChat](https://github.com/Pinkysha228/EasyChat) network. It receives a notification (raw bytes; the payload format is not inspected) from one backend server on the network and relays it to every other connected backend server.
 
 This role used to be handled by Velocity's built-in BungeeCord forwarding (`bungeecord:main` → `Forward`/`ALL`). That mechanism still works, but it is entirely opaque — if a message fails to arrive, there is no way to tell why. EasyChatBridge performs the same job through a dedicated channel and a real `PluginMessageEvent` on the proxy, which makes the relay observable, lets you exclude specific servers from delivery, and removes the dependency on undocumented proxy behavior.
 
@@ -35,7 +35,7 @@ log-forwards=true
 
 | Command | Description | Permission |
 |---|---|---|
-| `/notifyrelay reload` | Reloads the configuration without restarting the proxy | `notifyrelay.admin` |
+| `/easychatbridge reload` | Reloads the configuration without restarting the proxy | `easychat.velocity.reload` |
 
 ## Requirements
 
@@ -44,4 +44,4 @@ log-forwards=true
 
 ## License
 
-Same license as the main EasyChat project.
+MIT
