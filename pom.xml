@@ -9,7 +9,7 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>NotifyRelay</name>
+    <name>EasyChatBridge</name>
     <description>Velocity-плагин: принимает уведомление с одного бэкенд-сервера сети и раздаёт его всем остальным.</description>
 
     <properties>
